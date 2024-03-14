@@ -1,0 +1,163 @@
+﻿{
+	"code": 0,
+	"data": [
+		{
+			"path": "/home",
+			"name": "home",
+			"component": "home",
+			"meta": {
+				"title": "message.router.home",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": true,
+				"isIframe": false,
+				"roles": ["changpai"],
+				"icon": "iconfont icon-shouye"
+			}
+		},
+		{
+			"path": "/changpaigrzlgl",
+			"name": "changpaigrzlgl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "个人资料管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["changpai"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/changpai_updt2/1",
+					"name": "changpai_updt2",
+					"component": "changpai/personal/index",
+					"meta": {
+						"title": "修改个人资料",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["changpai"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},{
+			"path": "/gaojianshenhechangpaigl",
+			"name": "gaojianshenhechangpaigl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "稿件审核管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["changpai"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/yinpingaojian_gaojianshenhe/1",
+					"name": "yinpingaojian_gaojianshenhe",
+					"component": "gaojianshenhe/yinpingaojian_gaojianshenhe",
+					"meta": {
+						"title": "稿件审核添加",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["changpai"],
+						"icon": "iconfont icon-caidan"
+					}
+				},{
+					"path": "/gaojianshenhe/1",
+					"name": "gaojianshenhe",
+					"component": "gaojianshenhe/index",
+					"meta": {
+						"title": "稿件审核查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["changpai"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},{
+			"path": "/yinpingaojiangl",
+			"name": "yinpingaojiangl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "音频稿件管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["changpai"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/yinpingaojian/1",
+					"name": "yinpingaojian",
+					"component": "yinpingaojian/index",
+					"meta": {
+						"title": "音频稿件查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["changpai"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+
+
+
+		
+		{
+			"path": "/gaojianshenheAdd",
+			"name": "gaojianshenheAdd",
+			"component": "gaojianshenhe/gaojianshenhe_addlbdq",
+			"meta": {
+				"title": "稿件审核添加",
+				"isLink": "",
+				"isHide": true,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["changpai"],
+				"icon": "el-icon-school"
+			}
+		},		
+
+		{
+			"path": "/resetPass",
+			"name": "resetPass",
+			"component": "resetPass/index",
+			"meta": {
+				"title": "message.router.resetPass",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["changpai"],
+				"icon": "el-icon-s-grid"
+			}
+		}
+	]
+}

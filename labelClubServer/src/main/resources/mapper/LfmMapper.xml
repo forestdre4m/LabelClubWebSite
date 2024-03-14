@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.forestdre4m.labelclub.dao.LfmDao">
+
+
+    <insert id="insertBatch">
+        <foreach collection="list" item="lfm" separator=";">
+            INSERT INTO lfm (uid, rate, lid)
+            VALUES (#{lfm.uid}, #{lfm.rate}, #{lfm.lid})
+        </foreach>
+    </insert>
+
+
+</mapper>

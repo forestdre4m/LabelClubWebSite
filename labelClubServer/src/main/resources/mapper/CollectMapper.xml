@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.forestdre4m.labelclub.dao.CollectDao">
+    <select id="findByUser" parameterType="com.forestdre4m.labelclub.entity.Collect" resultType="com.forestdre4m.labelclub.entity.Collect">
+        select * from collect
+        <where>
+            <if test="userId != null and userId != 0">
+                and user_id = #{userId}
+            </if>
+            <if test="shangpinxinxiID != null and shangpinxinxiID != 0">
+                and shangpinxinxiID = #{shangpinxinxiID}
+            </if>
+        </where>
+    </select>
+    <select id="findByEndUserId" resultType="com.forestdre4m.labelclub.entity.Collect">
+        SELECT c.* FROM
+        (
+        SELECT a.* FROM collect AS a
+        where 1=1
+        ) AS c
+        LEFT JOIN label AS d ON c.shangpinxinxiID = d.id
+        WHERE c.user_id = #{userId}
+        GROUP BY c.id
+    </select>
+
+</mapper>

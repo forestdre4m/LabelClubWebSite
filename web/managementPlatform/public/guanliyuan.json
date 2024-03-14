@@ -1,0 +1,290 @@
+﻿{
+	"code": 0,
+	"data": [
+		{
+			"path": "/home",
+			"name": "home",
+			"component": "home",
+			"meta": {
+				"title": "message.router.home",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": true,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "iconfont icon-shouye"
+			}
+		},
+		{
+			"path": "/xtyhgl",
+			"name": "xtyhgl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "系统用户管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/guanliyuan/1",
+					"name": "guanliyuan",
+					"component": "guanliyuan/index",
+					"meta": {
+						"title": "管理员用户",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},{
+			"path": "/xinwentongzhigl",
+			"name": "xinwentongzhigl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "新闻数据管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/xinwentongzhi/1",
+					"name": "xinwentongzhi",
+					"component": "xinwentongzhi/index",
+					"meta": {
+						"title": "新闻数据设置",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},{
+			"path": "/bhtgl",
+			"name": "bhtgl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "变幻图设置",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/bianhuantu/1",
+					"name": "bianhuantu",
+					"component": "bianhuantu/index",
+					"meta": {
+						"title": "变幻图设置",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},{
+			"path": "/liuyanbangl",
+			"name": "liuyanbangl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "留言管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/liuyanban/1",
+					"name": "liuyanban",
+					"component": "liuyanban/index",
+					"meta": {
+						"title": "留言管理",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},{
+			"path": "/yinlerenglygl",
+			"name": "yinlerenglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "音乐人管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/yinleren/1",
+					"name": "yinleren",
+					"component": "yinleren/index",
+					"meta": {
+						"title": "音乐人查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},{
+			"path": "/changpaiglygl",
+			"name": "changpaiglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "厂牌管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/changpai/1",
+					"name": "changpai",
+					"component": "changpai/index",
+					"meta": {
+						"title": "厂牌查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},{
+			"path": "/yinpingaojianglygl",
+			"name": "yinpingaojianglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "音频稿件管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/yinpingaojian/1",
+					"name": "yinpingaojian",
+					"component": "yinpingaojian/index",
+					"meta": {
+						"title": "音频稿件查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},{
+			"path": "/gaojianshenheglygl",
+			"name": "gaojianshenheglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "稿件审核管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/gaojianshenhe/1",
+					"name": "gaojianshenhe",
+					"component": "gaojianshenhe/index",
+					"meta": {
+						"title": "稿件审核查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+
+
+
+		
+		
+
+		{
+			"path": "/resetPass",
+			"name": "resetPass",
+			"component": "resetPass/index",
+			"meta": {
+				"title": "message.router.resetPass",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			}
+		}
+	]
+}
